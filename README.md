@@ -70,7 +70,7 @@ Target: Class (omitted for clustering).
 
 #  # Clone this repository:
   
-  git clone https://github.com/yourusername/WineClusteringAnalysis.git
+  git clone https://github.com/shaurya-bhatia-sb/WineClusteringAnalysis.git
   
 # # Navigate into the project directory:
   
