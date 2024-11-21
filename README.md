@@ -101,17 +101,24 @@ Davies-Bouldin Score: Assesses compactness and separation (lower is better).
 
 # Results
 Scaling Impact: Standardization consistently improved clustering quality.
+
 PCA Effect: Dimensionality reduction through PCA led to more defined clusters, especially for KMeans.
+
 Best Configuration: KMeans with 3 clusters and standardized data yielded the highest performance in Silhouette and Calinski-Harabasz scores.
-Visualization
+
+## Visualization
 A bar plot visualizes Silhouette Scores across configurations, comparing algorithms and cluster counts. The visualizations provide insights into the clustering quality and help determine the most effective configurations.
+### Homepage
+![Plot](plot.png)
 
-
-# Conclusions
-Optimal Setup: Standardized data with PCA and KMeans clustering using 3 clusters performed the best.
-Scaling: Significantly affects clustering performance, with standardization providing the best results.
-PCA: Reduces dimensionality effectively, making clustering algorithms more accurate and computationally efficient.
-This analysis demonstrates how data preprocessing, PCA, and different clustering algorithms can influence clustering results on high-dimensional datasets.
+## Conclusions
+  Optimal Setup: Standardized data with PCA and KMeans clustering using 3 clusters performed the best.
+  
+  Scaling: Significantly affects clustering performance, with standardization providing the best results.
+  
+  PCA: Reduces dimensionality effectively, making clustering algorithms more accurate and computationally efficient.
+  
+  This analysis demonstrates how data preprocessing, PCA, and different clustering algorithms can influence clustering results on high-dimensional datasets.
 
 
 
