@@ -96,6 +96,8 @@ This analysis demonstrates how data preprocessing, PCA, and different clustering
 
 This project is licensed under the MIT License.
 
+---
+
 Made with ❤️ by Shaurya Bhatia
 
 
